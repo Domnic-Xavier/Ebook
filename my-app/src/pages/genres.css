@@ -1,0 +1,23 @@
+.gen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position:relative;
+}
+
+.gen img {
+    width: 200px;
+    height: 150px;
+    /* border: 2px solid rgb(37, 36, 36); */
+    border-radius: 13px;
+    box-shadow: 2px 4px 5px 0px rgba(145, 144, 144, 0.438);
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+    margin:3%;
+}
+.gen img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}

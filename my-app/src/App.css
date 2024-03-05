@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+#page-body {
+  max-width: 80vW;
+  margin: auto;
+  padding-top: 60px;
+}
+
+/* body{
+  overflow:hidden;
+} */
+
+.menu-container {
+  /* position: relative;
+  color:white;
+  background-image: url('./images/img-04.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: Calibri; */
+  background-image: url('./images/img-04.jfif');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:50vh;
+  padding: 20px;
+  color:white;
+  box-shadow: 0px 8px 10px 0px rgba(0, 5, 5, 0.1);
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.menu-items {
+  position: absolute;
+  margin-right:20px;
+  top: 10px;
+  right: 20px;/* Align items to the top right */
+  padding-top: 20px;
+  transition: 400ms;
+}
+.menu-items ul li a:hover{
+  color: #19e8ff;
+  font-weight: bold;
+  transform: scale(1.03);
+}
+
+.menu-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  letter-spacing: 1px;
+  font-weight:550;
+}
+
+.menu-items ul li {
+  margin-left: 20px;
+}
+
+.menu-items ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.find {
+  margin-top: 7%;
+}
+.find p{
+  
+  color: rgb(235, 230, 230);
+  font-family: calibri;
+  letter-spacing: 0.6px;
+}
+/* .search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  width: 300px; 
+  /* border: 1px solid #ccc; */
+  border-radius: 50px;
+  padding: 5px;
+  transition: 400ms;
+}
+
+.search-bar:hover {
+  transform: scale(1.03);
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.search-button {
+  position: relative;
+  flex:0;
+  background-color: #007bff;
+  color: #fff;
+  right:13%;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
