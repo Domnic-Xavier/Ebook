@@ -1,14 +1,42 @@
+.hom{
+    margin-left:10%;
+    margin-bottom: 2%;
+  }
+  
 .gen {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     position:relative;
+    margin:3%;
 }
+.gen img:hover{
+    transform: scale(1.4);
+    box-shadow: 2px 4px 5px 0px rgba(73, 72, 72, 0.438);
+}
+ .cen{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-weight:bold;
+    color:white;
+    font-size:large;
+    /* animation-name: zoomIn; */
+    /* transition: all 2s ease-in-out; */
+ }
+
+/* .bk{
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 .gen img {
-    width: 200px;
-    height: 150px;
+    width: 220px;
+    height: 170px;
     /* border: 2px solid rgb(37, 36, 36); */
     border-radius: 13px;
     box-shadow: 2px 4px 5px 0px rgba(145, 144, 144, 0.438);

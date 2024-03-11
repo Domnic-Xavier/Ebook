@@ -4,7 +4,7 @@ function Resource() {
     return (
       <>
       
-    {/* <div class="wrapper">
+    <div class="wrapper">
     <div class="left">
         <img src="pro.jpg" alt="user"/>
         <h4>Domnic Xavier</h4>
@@ -17,8 +17,8 @@ function Resource() {
             <li><a href="#"><i class="fab fa-youtube"></i></a></li>
         </ul>
         </div>
-    </div> */}
-    {/* <div class="right">
+    </div>
+    <div class="right">
         <div class="info">
             <h3>Contact Now</h3>
             <div class="info_data">
@@ -39,8 +39,8 @@ function Resource() {
           <input type="submit" value="Send"/>
         </form>
         
-    </div> */}
-{/* </div> */}
+    </div>
+</div>
       </>
     );
   }

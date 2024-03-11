@@ -12,8 +12,9 @@
   } */
   
   .wrapper{
-    position: absolute;
-    left:20%;
+    /* position: absolute; */
+    /* left:50%; */
+    margin-left:15%;
     width: 800px;
     height:500px;
     display: flex;
@@ -24,19 +25,19 @@
   
   .wrapper .left{
     width: 40%;
-    background: #2b00ec; 
-    background: linear-gradient(to right, #4e9bda, #006eec); 
+    /* background: #2b00ec;  */
+    /* background: linear-gradient(to right, #4e9bda, #006eec);  */
     padding: 30px 25px;
     border-radius: 10px;
     /* border-bottom-left-radius: 5px; */
     text-align: center;
-    color: #fff;
-    box-shadow: 8px 0px 38px -20px rgba(0,0,0,1);
+    color: #080808;
+    /* box-shadow: 8px 0px 38px -20px rgba(0,0,0,1); */
   }
   
   .wrapper .left img{
     border-radius: 50%;
-    border: 2px solid  #fff;
+    border: 1px solid  #413e3e;
     margin-bottom: 10px;
     width:200px;
     height:200px;
@@ -54,15 +55,15 @@
   
   }
   
-  /* .wrapper .right{
+  .wrapper .right{
     width: 65%;
-    background: #fff;
+    /* background: #fff; */
     padding: 30px 25px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   } */
   
-  /* .info,
+  .info,
   .projects{
     margin-bottom: 25px;
   }
@@ -82,6 +83,8 @@
   .projects_data{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    justify-content: center;
   }
   
   .info_data .data,
@@ -102,7 +105,7 @@
     margin-bottom: 10px;
     color: #4a4f54;
   }
-   */
+  
   .social_media ul{
     display: flex;
     margin-top: 50px;
@@ -112,27 +115,27 @@
   .social_media ul li{
     width: 45px;
     height: 45px;
-    background-image: linear-gradient(#464d55, #25292e);
+    /* background-image: linear-gradient(#464d55, #25292e); */
     margin-right: 10px;
     border-radius: 5px;
-    text-align: center;
+    /* text-align: center; */
     line-height: 45px;
   }
   
   .social_media ul li a{
-    color :#fff;
+    color :#080808;
     display: block;
     font-size: 18px;
   }
   
-  /* .right form {
+  .right form {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .right form input[type="text"], .back form textarea {
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 10px;
     border-radius: 20px;
     border: none;
@@ -153,7 +156,7 @@
     margin-top: 10px;
   }
   textarea {
-    font-size: 16px;
+    /* font-size: 16px; */
     line-height: 1.5;
     padding: 10px;
     border:none; 
@@ -166,8 +169,8 @@
   .right form input[type="submit"]:hover {
     background: linear-gradient(to right, #434343, #000000); 
   }
-  /* CSS */
-  /* .button-84 {
+  
+  .button-84 {
     align-items: center;
     background-color: initial;
     background-image: linear-gradient(#464d55, #25292e);
@@ -205,4 +208,4 @@
     .button-84 {
       height: 48px;
     }
-  } */ 
+  } 

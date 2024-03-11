@@ -1,26 +1,18 @@
-import './genres.css';
+import GenreList from "../components/GenreList";
+import genres from "./genres-content";
+import "./genres.css";
 
-function Genres(){
-    return (
-      <>
-      <div align="center">
-    <h2>Genres </h2>
-    {/* <a href="#"> (view all)</a> */}
-    </div>
-    
-      <div className='gen'>
-        <img id="gen-01"/>
-        <img id="gen-01"/>
-        <img id="gen-01"/>
-        <img id="gen-01"/>
-        <img id="gen-01"/>
-        <img id="gen-01"/>
-        <img id="gen-01"/>
-        <img id="gen-01"/>
-       
+function HomePage() {
+  return (
+    <>
+      <div className="hom">
+        <h2>GENRES </h2>
       </div>
-      </>
-    );
+      <div className="bk">
+        <GenreList genres={genres}></GenreList>
+      </div>
+    </>
+  );
 }
 
-export default Genres;
+export default HomePage;
