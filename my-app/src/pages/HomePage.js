@@ -1,7 +1,6 @@
 import BookList from "../components/BookList";
 import books from "./books-content";
 import "./home.css";
-import Genres from './Genres';
 
 function HomePage() {
   return (

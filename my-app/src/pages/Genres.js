@@ -2,7 +2,7 @@ import GenreList from "../components/GenreList";
 import genres from "./genres-content";
 import "./genres.css";
 
-function HomePage() {
+function Genres() {
   return (
     <>
       <div className="hom">
@@ -15,4 +15,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Genres;
