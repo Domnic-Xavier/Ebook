@@ -6,7 +6,7 @@ function Contact() {
 
             <div class="wrapper">
                 <div class="left">
-                    <img src="pro.jpg" alt="user" />
+                    <img src="https://i.pinimg.com/564x/4e/22/be/4e22beef6d94640c45a1b15f4a158b23.jpg" alt="user" />
                     <h4>Domnic Xavier</h4>
                     <p>Software Engineer</p>
                     <div class="social_media">
@@ -20,7 +20,7 @@ function Contact() {
                 </div>
                 <div class="right">
                     <div class="info">
-                        <h3>Contact Now</h3>
+                        <h3>Contact Now</h3><br/>
                         <div class="info_data">
                             <div class="data">
                                 <h4>Email</h4>
@@ -35,7 +35,7 @@ function Contact() {
                     <form>
                         <input type="text" placeholder="Enter Your Name" />
                         <input type="text" placeholder="Enter Your Email" />
-                        <textarea placeholder="Write Your Message" rows="5"></textarea>
+                        <textarea placeholder="Write Your Message" rows="5" className="textarea"></textarea>
                         <input type="submit" value="Send" />
                     </form>
 

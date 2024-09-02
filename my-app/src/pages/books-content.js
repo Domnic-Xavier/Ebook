@@ -1,11 +1,18 @@
 import img1 from "./bookimg/book-01.jpg";
-import img2 from "./bookimg/book-02.jpg";
+// import img2 from "./bookimg/book-02.jpg";
 import img3 from "./bookimg/book-03.jpg";
 import img4 from "./bookimg/book-04.jpg";
+import img5 from "./bookimg/book-05.jpg";
+// import img6 from "./bookimg/book-06.jpg";
+import img7 from "./bookimg/book-07.jpg";
+import img8 from "./bookimg/book-08.jpg";
+// import img9 from "./bookimg/book-09.jpg";
+import img10 from "./bookimg/book-10.jpg";
+import img14 from "./bookimg/book-14.jpg";
 
 const books = [
   {
-    image: img2,
+    image: img14,
     name: "lyros-js",
     author: "Splitting the values",
     genre: "romance",
@@ -29,7 +36,7 @@ const books = [
         ],
       },
     {
-      image: img2,
+      image: img5,
       name: "split-js",
       author: "Splitting the values",
       genre: "romance",
@@ -65,7 +72,7 @@ const books = [
       ],
     },
     {
-        image:img1,
+        image:img10,
         name: "react-js",
         author: "Filtering the values",
         genre: "fiction",
@@ -77,7 +84,7 @@ const books = [
         ]
       },
       {
-        image: img3,
+        image: img7,
         name: "map-js",
         author: "Mapping the values",
         genre: "children",
@@ -89,7 +96,7 @@ const books = [
         ],
       },
       {
-        image:img2,
+        image:img8,
         name: "react-js",
         author: "Filtering the values",
         genre: "fiction",

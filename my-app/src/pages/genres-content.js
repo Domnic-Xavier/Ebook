@@ -1,3 +1,4 @@
+// import img1 from "./genre-img/fiction.jpg";
 import img1 from "./genre-img/genre-01.jfif";
 import img2 from "./genre-img/genre-02.jfif";
 import img3 from "./genre-img/genre-03.jfif";

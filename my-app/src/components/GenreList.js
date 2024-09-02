@@ -11,6 +11,7 @@ function GenreList({genres}){
     ))}
     </>     
     );
+    
 }
 
 export default GenreList;
